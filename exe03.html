@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcela</title>
+</head>
+<body>
+    <script>
+        // Variável para o valor total da compra
+        var valorTotalCompra = 149.90;
+
+        // Variável para a quantidade de parcelas
+        var quantidadeParcelas = 2; 
+
+      
+        var valorParcela = valorTotalCompra / quantidadeParcelas;
+
+        
+        document.write(`O valor total da compra foi R$ ${valorTotalCompra.toFixed(2)}.<br>`);
+        document.write(`Forma de pagamento: ${quantidadeParcelas}x de R$ ${valorParcela.toFixed(2)}.`);
+    </script>
+ </body>
+</html>
